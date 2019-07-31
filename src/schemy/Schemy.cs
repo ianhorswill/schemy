@@ -433,7 +433,7 @@ namespace Schemy
                         }
                         else
                         {
-                            throw new InvalidOperationException("unexpected implementation of ICallable: " + rawProc.GetType().Name);
+                            return ((ICallable) rawProc).Call(args);
                         }
                     }
                 }
