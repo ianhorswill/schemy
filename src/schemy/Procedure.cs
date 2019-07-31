@@ -10,7 +10,7 @@ namespace Schemy
     /// <summary>
     /// Represents a procedure value in Scheme
     /// </summary>
-    interface ICallable
+    public interface ICallable
     {
         /// <summary>
         /// Invokes this procedure
